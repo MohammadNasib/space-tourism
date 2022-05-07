@@ -1,0 +1,151 @@
+.container {
+  background: url("../assets/destination/background-destination-mobile.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.title {
+  font-size: calc(2.5vw + 1.2rem);
+  font-weight: bold;
+  margin-top: 4em;
+  place-self: center;
+}
+
+.content {
+  margin-top: 7em;
+}
+
+.context img {
+  width: 65%;
+}
+
+.planetImg img {
+  width: 90%;
+}
+
+.planetInfo {
+  margin-top: 5em;
+}
+
+.destinations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.destinations span {
+  font-size: calc(1.5vw + 1rem);
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.details {
+  padding: 3em 0;
+}
+
+.details .planetName {
+  font-size: calc(6vw + 6rem);
+  font-weight: bolder;
+}
+
+.details .aboutPlanet {
+  font-size: calc(1.5vw + 1rem);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 1.5em 0 2em 0;
+  max-width: 45ch;
+  margin: auto;
+  line-height: 1.6em;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .distance {
+  margin-bottom: 3em;
+}
+
+.footer .distance h1,
+.footer .travelTime h1 {
+  font-size: calc(3vw + 2rem);
+  margin-top: 0.3em;
+}
+
+.footer .distance h3,
+.footer .travelTime h3 {
+  font-size: calc(1vw + 1rem);
+}
+
+@media (min-width: 640px) {
+  .container {
+    background: url("../assets/destination/background-destination-tablet.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .title {
+    font-size: calc(2.5vw + 1.2rem);
+    place-self: start;
+    margin: 4em 0 0 2em;
+  }
+  .destinations span {
+    font-size: calc(1.3vw + 1.2rem);
+  }
+  .details .planetName {
+    font-size: calc(7vw + 8rem);
+  }
+  .details .aboutPlanet {
+    max-width: 43ch;
+  }
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 950px) {
+  .container {
+    background: url("../assets/destination/background-destination-desktop.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .menu ul li a {
+    font-size: calc(1.2vw + 1rem);
+  }
+  .title {
+    font-size: calc(1.5vw + 1.4rem);
+    margin: 3em 0 0 2em;
+  }
+  .destinations span {
+    font-size: calc(1vw + 1rem);
+  }
+  .details .planetName {
+    font-size: calc(6vw + 7rem);
+  }
+  .details .aboutPlanet {
+    font-size: calc(1vw + 1rem);
+    max-width: 33ch;
+  }
+  .footer .distance {
+    margin: 0 auto 0 0;
+  }
+  .footer .distance h1,
+  .footer .travelTime h1 {
+    font-size: calc(1vw + 1.5rem);
+  }
+  .footer .distance h3,
+  .footer .travelTime h3 {
+    font-size: calc(0.5vw + 0.7rem);
+  }
+}
+/*# sourceMappingURL=destination.css.map */
