@@ -1,0 +1,66 @@
+.container {
+  background: url("../assets/crew/background-crew-mobile.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.destinations {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(1.5vw + 1rem);
+}
+
+.details {
+  padding: 2em 0 0 0;
+}
+
+.details .name {
+  font-size: calc(2vw + 2rem);
+}
+
+.details .about {
+  border: none;
+}
+
+.dots .dot {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgba(113, 106, 106, 0.55);
+  margin: 0 1em;
+  cursor: pointer;
+}
+
+.dots .dot:hover {
+  background-color: white;
+}
+
+@media (min-width: 640px) {
+  .container {
+    background: url("../assets/crew/background-crew-tablet.jpg") no-repeat center center;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 950px) {
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .image {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .info {
+    text-align: left;
+  }
+  .destinations {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+/*# sourceMappingURL=crew.css.map */

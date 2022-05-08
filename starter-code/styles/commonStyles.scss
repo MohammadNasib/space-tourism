@@ -18,6 +18,14 @@ html {
     box-sizing: border-box;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+.active {
+    background-color: white !important;
+}
+
 .container {
     min-height: 100vh;
     display: -ms-grid;
@@ -111,10 +119,6 @@ html {
     margin-bottom: 5em;
 }
 
-.pointer {
-    cursor: pointer;
-}
-
 @media (min-width: 640px) {
     .container {
         padding: 2em;
@@ -184,6 +188,6 @@ html {
         text-align: left;
     }
     .leftPadding {
-        padding-left: 1rem;
+        padding: 0 1rem;
     }
 }
