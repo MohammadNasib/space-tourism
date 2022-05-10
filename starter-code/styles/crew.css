@@ -28,12 +28,14 @@
   border-radius: 50%;
   display: inline-block;
   background-color: rgba(113, 106, 106, 0.55);
-  margin: 0 1em;
+  margin: 0.5em 1em;
   cursor: pointer;
+  border: 1px solid rgba(113, 106, 106, 0.55);
 }
 
 .dots .dot:hover {
   background-color: white;
+  color: black;
 }
 
 @media (min-width: 640px) {

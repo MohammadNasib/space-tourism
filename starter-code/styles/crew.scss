@@ -26,12 +26,14 @@
         border-radius: 50%;
         display: inline-block;
         background-color: hsla(0, 3.2%, 42.9%, 0.55);
-        margin: 0 1em;
+        margin: 0.5em 1em;
         cursor: pointer;
+        border: 1px solid hsla(0, 3.2%, 42.9%, 0.55);
     }
 
     .dot:hover {
         background-color: white;
+        color: black;
     }
 }
 

@@ -92,7 +92,7 @@
   .title {
     font-size: calc(2.5vw + 1.2rem);
     place-self: start;
-    margin: 4em 0 0 2em;
+    margin: 4em 0 0 1em;
   }
   .destinations span {
     font-size: calc(1.3vw + 1.2rem);
@@ -124,7 +124,6 @@
   }
   .title {
     font-size: calc(1.5vw + 1.4rem);
-    margin: 3em 0 0 2em;
   }
   .destinations span {
     font-size: calc(1vw + 1rem);
